@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
