@@ -6,6 +6,7 @@ body {
     background-image: url(../images/wallpaperflare.com_wallpaper\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     object-fit: cover;
     font-family: 'Courier New', Courier, monospace;
 }
