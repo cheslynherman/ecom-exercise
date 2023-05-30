@@ -21,6 +21,7 @@ body {
 }
 .about-container {
     background-color: #ffffff75;;
+    width: 180vh;
 }
 
 .card {

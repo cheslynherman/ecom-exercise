@@ -9,7 +9,7 @@ let products = [
     specs:
       "3 bedrooms, 1 bathroom, fully furnished, located deep within the woods for ultimate privacy.",
     price: "€1.5m",
-    purchase: "Purchase Property"
+    purchase: "Purchase Property",
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ let products = [
     specs:
       "2 bedrooms, bathroom that includes shower, unfurnished, attic, barn has been reinforced after the civil war. ",
     price: "€2.3m",
-    purchase: "Purchase Property"
+    purchase: "Purchase Property",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ let products = [
     specs:
       "20 bedrooms, 3 bathrooms, 6 toilets, place has been vacant since the 1580s.",
     price: "€9.8m",
-    purchase: "Purchase Property"
+    purchase: "Purchase Property",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ let products = [
     specs:
       "6 bedrooms, 6 bathooms fully equipped with baths and showers, olympic pool, view of the city, a lovely garden for our tree huggers.",
     price: "€6.7m",
-    purchase: "Purchase Property"
+    purchase: "Purchase Property",
   },
 ];
 let disProducts = document.querySelector(".products");
