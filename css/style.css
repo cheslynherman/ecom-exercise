@@ -31,3 +31,15 @@ body {
 .btn {
     border: 2px solid black;
 }
+
+@media screen and (max-width: 1249px) {
+    .about-container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .card {
+        width: 80% !important;
+    }
+}
