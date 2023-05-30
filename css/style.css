@@ -4,6 +4,7 @@
 
 body {
     background-image: url(../images/wallpaperflare.com_wallpaper\ \(1\).jpg);
+    background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -17,4 +18,15 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.about-container {
+    background-color: #ffffff75;;
+}
+
+.card {
+    background-color: #ffffff75;;
+}
+
+.btn {
+    border: 2px solid black;
 }

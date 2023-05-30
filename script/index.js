@@ -7,8 +7,9 @@ let products = [
     description:
       "If you are looking to get away from the buzz of the modern world and get yourself spooked, this lovely home located deep within Transylvanian woods is the best choice.",
     specs:
-      "3 bedrooms, 1 bathroom, fully furnished, located deep within the woods for ultimate privacy",
+      "3 bedrooms, 1 bathroom, fully furnished, located deep within the woods for ultimate privacy.",
     price: "€1.5m",
+    purchase: "Purchase Property"
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ let products = [
     specs:
       "2 bedrooms, bathroom that includes shower, unfurnished, attic, barn has been reinforced after the civil war. ",
     price: "€2.3m",
+    purchase: "Purchase Property"
   },
   {
     id: 3,
@@ -29,8 +31,9 @@ let products = [
     description:
       "For people who are not interested in holding on sanity any longer, this place is perfect. Previously used as a hospital in Renaissance times, many patients were experimented on using forbidden methods. These experiments were the cause of scores of untimely deaths.",
     specs:
-      "20 bedrooms, 3 bathrooms, 6 toilets, place has been vacant since the 1580s",
+      "20 bedrooms, 3 bathrooms, 6 toilets, place has been vacant since the 1580s.",
     price: "€9.8m",
+    purchase: "Purchase Property"
   },
   {
     id: 4,
@@ -42,20 +45,21 @@ let products = [
     specs:
       "6 bedrooms, 6 bathooms fully equipped with baths and showers, olympic pool, view of the city, a lovely garden for our tree huggers.",
     price: "€6.7m",
+    purchase: "Purchase Property"
   },
 ];
 let disProducts = document.querySelector(".products");
 products.forEach((data) => {
   disProducts.innerHTML += `
-    <div class="card m-3 p-1" style="width: 100vh;">
-  <img src="${data.img}" class="card-img-top w-100 h-100" alt="...">
+    <div class="card m-3 p-1 text-black" style="width: 100vh;">
+  <img src="${data.img}" class="card-img-top img-fluid w-100 h-100" alt="...">
   <div class="card-body">
     <h3 class="card-title">${data.name}</h3>
     <h4 class="card-location">${data.location}</h4>
     <p class="card-text">${data.description}</p>
     <li class="card-text">${data.specs}</li>
     <li>${data.price}</li>
-
+    <a href="#" class="btn d-block m-2">${data.purchase}</a>
   </div>
 </div>`;
 });
